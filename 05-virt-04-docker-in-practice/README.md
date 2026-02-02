@@ -1,4 +1,4 @@
-# Домашнее задание к занятию 5. «Практическое применение Docker»
+![docker 6 3  task](https://github.com/user-attachments/assets/f6bb9344-c100-4403-8b34-da3788ec2a86)![docker 3 1  task](https://github.com/user-attachments/assets/f3efc9e0-4c6d-42f8-a3c2-b5524bc69edb)# Домашнее задание к занятию 5. «Практическое применение Docker»
 
 ### Инструкция к выполнению
 
@@ -46,6 +46,7 @@ See 'snap info docker' for additional versions.
 ---
 ОТВЕТ
 
+![docker 2 task](https://github.com/user-attachments/assets/2836098a-9e25-4aac-8f8a-5d574da968d3)
 
 
 
