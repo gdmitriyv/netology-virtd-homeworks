@@ -1,4 +1,4 @@
-![docker 6 3  task](https://github.com/user-attachments/assets/f6bb9344-c100-4403-8b34-da3788ec2a86)![docker 3 1  task](https://github.com/user-attachments/assets/f3efc9e0-4c6d-42f8-a3c2-b5524bc69edb)# Домашнее задание к занятию 5. «Практическое применение Docker»
+# Домашнее задание к занятию 5. «Практическое применение Docker»
 
 ### Инструкция к выполнению
 
@@ -6,7 +6,7 @@
 3. **Своё решение к задачам оформите в вашем GitHub репозитории.**
 4. В личном кабинете отправьте на проверку ссылку на .md-файл в вашем репозитории.
 5. Сопроводите ответ необходимыми скриншотами.
-
+ОТВЕТ ТУТ!
 ---
 ## Примечание: Ознакомьтесь со схемой виртуального стенда [по ссылке](https://github.com/netology-code/shvirtd-example-python/blob/main/schema.pdf)
 
@@ -44,7 +44,7 @@ See 'snap info docker' for additional versions.
 ### ВНИМАНИЕ!
 !!! В процессе последующего выполнения ДЗ НЕ изменяйте содержимое файлов в fork-репозитории! Ваша задача ДОБАВИТЬ 5 файлов: ```Dockerfile.python```, ```compose.yaml```, ```.gitignore```, ```.dockerignore```,```bash-скрипт```. Если вам понадобилось внести иные изменения в проект - вы что-то делаете неверно!
 ---
-ОТВЕТ
+ОТВЕТ ТУТ!
 
 ![docker 2 task](https://github.com/user-attachments/assets/2836098a-9e25-4aac-8f8a-5d574da968d3)
 
@@ -73,6 +73,12 @@ See 'snap info docker' for additional versions.
 
 6. Остановите проект. В качестве ответа приложите скриншот sql-запроса.
 
+ОТВЕТ ТУТ!
+
+![docker 3 1  task](https://github.com/user-attachments/assets/622819c1-b9f2-4b25-b8e1-591b6d7ccd24)
+![docker 3 2  task](https://github.com/user-attachments/assets/e0c5be5e-e359-481d-9842-14db8efe8ee3)
+
+
 ## Задача 4
 1. Запустите в Yandex Cloud ВМ (вам хватит 2 Гб Ram).
 2. Подключитесь к Вм по ssh и установите docker.
@@ -80,6 +86,12 @@ See 'snap info docker' for additional versions.
 4. Зайдите на сайт проверки http подключений, например(или аналогичный): ```https://check-host.net/check-http``` и запустите проверку вашего сервиса ```http://<внешний_IP-адрес_вашей_ВМ>:8090```. Таким образом трафик будет направлен в ingress-proxy. Трафик должен пройти через цепочки: Пользователь → Internet → Nginx → HAProxy → FastAPI(запись в БД) → HAProxy → Nginx → Internet → Пользователь
 5. (Необязательная часть) Дополнительно настройте remote ssh context к вашему серверу. Отобразите список контекстов и результат удаленного выполнения ```docker ps -a```
 6. Повторите SQL-запрос на сервере и приложите скриншот и ссылку на fork.
+
+ОТВЕТ ТУТ!
+
+![docker 4 1  task](https://github.com/user-attachments/assets/ce99791d-fa0e-482b-9be2-57d6a6e7bbf8)
+![docker 4 2  task](https://github.com/user-attachments/assets/cc37ab84-8a00-488a-81b9-18ea9d121fb1)
+
 
 ## Задача 5 (*)
 1. Напишите и задеплойте на вашу облачную ВМ bash скрипт, который произведет резервное копирование БД mysql в директорию "/opt/backup" с помощью запуска в сети "backend" контейнера из образа ```schnitzler/mysqldump``` при помощи ```docker run ...``` команды. Подсказка: "документация образа."
@@ -91,9 +103,26 @@ See 'snap info docker' for additional versions.
 Скачайте docker образ ```hashicorp/terraform:latest``` и скопируйте бинарный файл ```/bin/terraform``` на свою локальную машину, используя dive и docker save.
 Предоставьте скриншоты  действий .
 
+ОТВЕТ ТУТ!
+
+![docker 6 1  task](https://github.com/user-attachments/assets/fafd60b8-273a-49aa-8ca6-2b39b1aa59ff)
+
+ba8da9a9f1ceccdea7ffbee7dbd1d76def077e82545afaf6b669ceee89295b18
+
+![docker 6 2  task](https://github.com/user-attachments/assets/dc4c7677-c46d-4162-b25f-cd1c274b03e9)
+
+
+
 ## Задача 6.1
 Добейтесь аналогичного результата, используя docker cp.  
 Предоставьте скриншоты  действий .
+
+ОТВЕТ ТУТ!
+
+![docker 6 3  task](https://github.com/user-attachments/assets/069bf19b-8f40-4895-b003-c254d74e0dc5)
+![docker 6 4  task](https://github.com/user-attachments/assets/2c8b6d0a-263c-46d8-8daa-533a125bea84)
+
+
 
 ## Задача 6.2 (**)
 Предложите способ извлечь файл из контейнера, используя только команду docker build и любой Dockerfile.  
