@@ -29,6 +29,9 @@ Hey, Netology
 - Соберите и отправьте созданный образ в свой dockerhub-репозитории c tag 1.0.0 (ТОЛЬКО ЕСЛИ ЕСТЬ ДОСТУП). 
 - Предоставьте ответ в виде ссылки на https://hub.docker.com/<username_repo>/custom-nginx/general .
 
+- ОТВЕТ ТУТ!
+- https://hub.docker.com/repository/docker/gdmitriyv/custom-nginx/general
+
 ## Задача 2
 1. Запустите ваш образ custom-nginx:1.0.0 командой docker run в соответвии с требованиями:
 - имя контейнера "ФИО-custom-nginx-t2"
@@ -39,6 +42,10 @@ Hey, Netology
 4. Убедитесь с помощью curl или веб браузера, что индекс-страница доступна.
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
+
+- ОТВЕТ ТУТ!
+- ![2](https://github.com/user-attachments/assets/52b12e9c-4748-42f2-b8a6-b0f132264019)
+
 
 
 ## Задача 3
@@ -57,6 +64,19 @@ Hey, Netology
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
 
+- ОТВЕТ ТУТ!
+- 3. онтейнер остановился, потому что сигнал SIGINT (который отправляет Ctrl+C) завершает работу основного процесса контейнера, что приводит к его остановке.
+Nginx по-прежнему слушает на порту 80, командой  "docker run -d --name "gdmitiyv-custom-nginx-t2" -p 127.0.0.1:8080:80 gdmitriyv/custom-nginx:1.0.0" делал перенаправление на 80.
+
+![3 1](https://github.com/user-attachments/assets/2adc4cac-dc25-4b8e-ad10-25915aece9b4)
+
+![3 2](https://github.com/user-attachments/assets/b29b9ed3-919a-4b37-97cc-92b0bc979a97)
+
+![3 3](https://github.com/user-attachments/assets/f6b28b23-b65f-431e-b61c-0dc262abd51e)
+
+![3 4](https://github.com/user-attachments/assets/1ba8eb0f-806f-4d81-a97b-045bcfef7151)
+
+
 ## Задача 4
 
 
@@ -69,6 +89,13 @@ Hey, Netology
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
 
+- ОТВЕТ ТУТ!
+
+- ![4](https://github.com/user-attachments/assets/98b7c8cf-f4f4-4320-9a03-982d7c72244b)
+
+![4 1](https://github.com/user-attachments/assets/e00b1e8c-0fb3-46dd-8a7e-3f3f4b24524a)
+
+![4 2](https://github.com/user-attachments/assets/b796520b-9a85-4a3e-ba56-2fe803e12ebe)
 
 ## Задача 5
 
@@ -116,6 +143,16 @@ services:
 7. Удалите любой из манифестов компоуза(например compose.yaml).  Выполните команду "docker compose up -d". Прочитайте warning, объясните суть предупреждения и выполните предложенное действие. Погасите compose-проект ОДНОЙ(обязательно!!) командой.
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод, файл compose.yaml , скриншот portainer c задеплоенным компоузом.
+
+- ОТВЕТ ТУТ!
+
+- Выполнив команду docker compose up -d, будет запущен только один из файлов, и это будет docker-compose.yaml, так как это команда docker compose по умолчанию ищет файл с именем docker-compose.yaml или docker-compose.yml, а не compose.yaml.
+
+![5](https://github.com/user-attachments/assets/cd56e14b-1bf9-4065-b376-040dc805450c)
+
+![5 1](https://github.com/user-attachments/assets/a30f79e5-f93e-429b-9b74-d9bc576412bd)
+
+![5 2](https://github.com/user-attachments/assets/5b870c7b-97fa-4d4b-8b8c-3bbaa218ced6)
 
 ---
 
